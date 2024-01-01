@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isIteratorLike = require( '@stdlib/assert-is-iterator-like' );
 var isNumber = require( '@stdlib/assert-is-number' ).isPrimitive;
 var array = require( '@stdlib/ndarray-array' );
