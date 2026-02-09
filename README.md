@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nditerValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-values@esm/index.mjs';
+import nditerValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-values@v0.2.3-esm/index.mjs';
 ```
 
 #### nditerValues( x\[, options] )
@@ -148,7 +148,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import nditerValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-values@esm/index.mjs';
+import nditerValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-values@v0.2.3-esm/index.mjs';
 
 // Define an input array:
 var x = array( zeroTo( 27 ), {
